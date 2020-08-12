@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+message = 'Your moral alignment is'
+
+# wrap connection in a int() to accept whole  numbers
+selection = int(input("Pick a number between 0 and 5 "))
+moral = ['neutral', 'good', 'bad', 'chaotic', 'evil', 'lawful']
+# if input value is between 0 and 5
+if selection == 0: 
+    message = message + moral[0]
+elif selection ==1:
+    message = message + moral[1]
+elif selection == 2:
+    message == message + moral[2]
+elif selection == 3:
+    message = message + moral[3]
+elif selection == 4:
+    message = message + moral[4]
+elif selection == 5:
+    message = message + moral[5]
+print(message)
+

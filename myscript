@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+name = input("what is your name?")
+dayOfTheWeek= input("What day of the week it is?")
+print("Hello " + name + "!" + "Happy " + dayOfTheWeek + "!")
+#print(f"Hello, {name}! Happy {day}!")
