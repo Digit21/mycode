@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+print("ENGINEERING FLOWCHART\n")
+question = input("Does it move? ")
+if question == "yes":
+    print("Should it?")
+elif question == "no":
+    print("Wrap it up in duct tape!")
