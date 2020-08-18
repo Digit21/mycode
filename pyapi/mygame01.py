@@ -3,14 +3,14 @@
 
 def showInstructions():
     #print a main menu and the commmands
-    print(''''
+    print('''
 RPG Game
 ========
 Get to the Garden with a key and a potion to win! Avoid the monsters!
 Commands include:
   go [direction]
   get [item]
-'''')
+''')
 
 
 def showStatus():
